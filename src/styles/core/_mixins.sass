@@ -1,0 +1,26 @@
+/* Breakpoints */
+@mixin media($breakpoint, $size: max) 
+	@if map-has-key($breakpoints, $breakpoint) 
+		@media only screen and (#{$size}-width: map-get($breakpoints, $breakpoint)) 
+			@content
+	@else 
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`.  Available breakpoints are: #{map-keys($breakpoints)}."
+
+@mixin media-between($maxbreakpoint, $minbreakpoint) 
+	@if map-has-key($breakpoints, $maxbreakpoint) 
+		@media  (max-width: map-get($breakpoints, $maxbreakpoint)) and (min-width: map-get($breakpoints, $minbreakpoint)) 
+			@content
+	@else 
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`.  Available breakpoints are: #{map-keys($breakpoints)}."
+
+// create focus and hover mixin
+@mixin _hover
+	&:hover
+		@content
+
+/*Background */
+@mixin image($image, $repeat: true)
+	background-image: url('../img/#{$image}')
+	@if($repeat)
+		background-position: center
+		background-repeat: no-repeat
