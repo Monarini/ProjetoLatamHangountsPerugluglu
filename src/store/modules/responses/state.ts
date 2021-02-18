@@ -1,7 +1,4 @@
-import emogiRindo from '../../../assets/emogi-rindo.svg'
 import emogiAssustado from '../../../assets/emogi-assustado.svg'
-import goodbye1 from '../../../assets/gifs/goodbye1.gif'
-import goodbye2 from '../../../assets/gifs/goodbye2.gif'
 import Immutable from 'seamless-immutable'
 
 export const INITIAL_STATE = Immutable([

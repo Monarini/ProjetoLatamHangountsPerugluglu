@@ -1,21 +1,9 @@
-import chocado from '../../../assets/gifs/chocado.gif'
-import fogo from '../../../assets/gifs/fogo.gif'
-import fire1 from '../../../assets/fire1.jpg'
-import fire2 from '../../../assets/fire2.jpg'
-import emogiExtintor from '../../../assets/emogi-extintor.svg'
 import emogiRindo from '../../../assets/emogi-rindo.svg'
-import emogiTriste from '../../../assets/emogi-triste.svg'
 import emogiAssustado from '../../../assets/emogi-assustado.svg'
 import emogiComprimento from '../../../assets/emogi-comprimento.svg'
 import emogiIndignado from '../../../assets/emogi-indignado.svg'
-import emogiLivro from '../../../assets/emogi-livro.svg'
 import emogiCurioso from '../../../assets/emogi-curioso.svg'
 
-import slides1 from '../../../assets/slides1.jpg'
-import slides2 from '../../../assets/slides2.jpg'
-import slides3 from '../../../assets/slides3.jpg'
-import slides4 from '../../../assets/slides4.jpg'
-import slides5 from '../../../assets/slides5.jpg'
 export const INITIAL_STATE = ([
   // # Episódio - 1
   // Sequência 1 / Missão 1

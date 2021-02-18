@@ -1,6 +1,6 @@
-import ep2seq1mis2 from '../../../assets/ep2seq1mis2.mp3'
-import ep2seq2mis3 from '../../../assets/ep2seq2mis3.mp3'
-import ep4seq2mis2 from '../../../assets/ep4seq2mis2.mp3'
+// import ep2seq1mis2 from '../../../assets/ep2seq1mis2.mp3'
+// import ep2seq2mis3 from '../../../assets/ep2seq2mis3.mp3'
+// import ep4seq2mis2 from '../../../assets/ep4seq2mis2.mp3'
 
 export const INITIAL_STATE = ([
   // // # Episódio - 2
